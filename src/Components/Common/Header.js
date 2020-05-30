@@ -20,7 +20,7 @@ export default class IconLabelTabs extends React.Component {
             <div>
 
 
-                <Grid container spacing={3}>
+                <Grid container spacing={3} style={{ width: '100%' }}>
                     <Grid item xs={1}>
                         <i style={{ color: 'white' }} class="fas fa-arrow-left"></i>
                     </Grid>

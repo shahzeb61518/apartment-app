@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import Grid from '@material-ui/core/Grid';
 
-import Container from '@material-ui/core/Container';
 import Divider from '@material-ui/core/Divider';
 
 import Card from '@material-ui/core/Card';
@@ -91,7 +90,7 @@ export default class PropertyDetails extends Component {
             completionStatus
         } = this.state
 
-       
+
 
         return (
             <div >
@@ -200,25 +199,25 @@ export default class PropertyDetails extends Component {
                                                 <div>
                                                     <i
                                                         class="fa fa-bed"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Bedrooms </h6>
                                                 </div>
                                                 <div>
                                                     <i class="fa fa-home"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Built-Up </h6>
                                                 </div>
                                                 <div>
                                                     <i class="fas fa-couch"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Furnished </h6>
                                                 </div>
                                                 <div>
                                                     <i class="fa fa-spinner"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Cooling</h6>
                                                 </div>
@@ -245,31 +244,31 @@ export default class PropertyDetails extends Component {
                                             <Grid item xs={4}>
                                                 <div>
                                                     <i class="fas fa-ruler"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Height</h6>
                                                 </div>
                                                 <div>
                                                     <i class="fa fa-bath"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Bathrooms</h6>
                                                 </div>
                                                 <div>
                                                     <i class="fas fa-parking"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Plot Size</h6>
                                                 </div>
                                                 <div>
                                                     <i class="fa fa-car"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6> Parking</h6>
                                                 </div>
                                                 <div>
                                                     <i class="fas fa-money-bill"
-                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px'  }}
+                                                        style={{ color: COLOR_PINK, float: 'left', paddingRight: '10px' }}
                                                     > </i>
                                                     <h6>Service Charge</h6>
                                                 </div>
@@ -359,7 +358,7 @@ export default class PropertyDetails extends Component {
                                 </Card>
                             </Grid>
                         </Grid>
-
+                        <br />
                     </Card>
                 </React.Fragment>
 
